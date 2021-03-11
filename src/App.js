@@ -43,6 +43,14 @@ class App extends React.Component {
     })
   }
 
+  clearTask = (taskId) => {
+    this.setState({
+      todos: this.state.todos.filter(task => (
+        
+      ))
+      )}
+  }
+
 
   render() {
     return (
